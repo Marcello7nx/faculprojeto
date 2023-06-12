@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="Author" content="..."/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="width=device=wwidth, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="" crossorigin="anonymous"></script>
+        <title>Login</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="Logo">NutriDiet</h1>
+            <nav class="menu">
+                <a href="index.html">Principal</a>
+                <a href="serviço.html">Serviço</a>
+                <a href="contato.html">Contato</a>
+                <a href="login.html"> <button class="btnLogin-popup">Login</button></a>
+            </nav>
+        </header>
+        <div class="telaLogin">
+            <span class="icon-close">
+                <ion-icon name="close"></ion-icon></span>
+            <div class="form-box Login">
+                <h2>Login</h2>
+                <form ativar="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="text" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Senha</label>
+                    </div>
+                    <div class="esqueceu-senha">
+                        <label><input type="checkbox">Lembrar</label>
+                        <a href="#">Esqueceu a Senha?</a>
+                    </div>
+                    <a href="paciente.html"><button type="button" class="btn">Login</button></a>
+                    <div class="Login-Registrar">
+                        <p>Não tem uma conta? <a href="registrar.html" class="registrar-link">Registrar</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
